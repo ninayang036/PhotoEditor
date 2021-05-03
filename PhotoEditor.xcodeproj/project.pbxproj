@@ -13,6 +13,10 @@
 		ACC697BF263159140021AD28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC697BD263159140021AD28 /* Main.storyboard */; };
 		ACC697C1263159170021AD28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC697C0263159170021AD28 /* Assets.xcassets */; };
 		ACC697C4263159170021AD28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC697C2263159170021AD28 /* LaunchScreen.storyboard */; };
+		ACC697CC26315C4F0021AD28 /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC697CB26315C4F0021AD28 /* initialViewController.swift */; };
+		ACC697CE26329CF90021AD28 /* editPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC697CD26329CF90021AD28 /* editPhotoViewController.swift */; };
+		ACC697D226395EF00021AD28 /* polaroidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC697D126395EF00021AD28 /* polaroidViewController.swift */; };
+		ACC697D626396E330021AD28 /* printViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC697D526396E330021AD28 /* printViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ACC697C0263159170021AD28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACC697C3263159170021AD28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACC697C5263159170021AD28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC697CB26315C4F0021AD28 /* initialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialViewController.swift; sourceTree = "<group>"; };
+		ACC697CD26329CF90021AD28 /* editPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPhotoViewController.swift; sourceTree = "<group>"; };
+		ACC697D126395EF00021AD28 /* polaroidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polaroidViewController.swift; sourceTree = "<group>"; };
+		ACC697D526396E330021AD28 /* printViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				ACC697B9263159140021AD28 /* SceneDelegate.swift */,
 				ACC697BB263159140021AD28 /* ViewController.swift */,
 				ACC697BD263159140021AD28 /* Main.storyboard */,
+				ACC697D526396E330021AD28 /* printViewController.swift */,
+				ACC697D126395EF00021AD28 /* polaroidViewController.swift */,
+				ACC697CD26329CF90021AD28 /* editPhotoViewController.swift */,
+				ACC697CB26315C4F0021AD28 /* initialViewController.swift */,
 				ACC697C0263159170021AD28 /* Assets.xcassets */,
 				ACC697C2263159170021AD28 /* LaunchScreen.storyboard */,
 				ACC697C5263159170021AD28 /* Info.plist */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC697D226395EF00021AD28 /* polaroidViewController.swift in Sources */,
 				ACC697BC263159140021AD28 /* ViewController.swift in Sources */,
+				ACC697D626396E330021AD28 /* printViewController.swift in Sources */,
 				ACC697B8263159140021AD28 /* AppDelegate.swift in Sources */,
+				ACC697CE26329CF90021AD28 /* editPhotoViewController.swift in Sources */,
+				ACC697CC26315C4F0021AD28 /* initialViewController.swift in Sources */,
 				ACC697BA263159140021AD28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57ZG885DM5;
 				INFOPLIST_FILE = PhotoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57ZG885DM5;
 				INFOPLIST_FILE = PhotoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
